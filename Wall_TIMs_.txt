@@ -1,0 +1,64 @@
+
+Call:
+DirichReg(formula = AL ~ as.factor(Year), data = p, model = "common")
+
+Standardized Residuals:
+            Min       1Q   Median       3Q     Max
+Comp    -0.6125  -0.5714  -0.5552  -0.5285  3.6901
+Weedy   -0.6675  -0.5984  -0.5869  -0.5292  3.6998
+StrTol  -2.4607   0.7933   0.8958   0.9188  1.0611
+
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 1: Comp
+                     Estimate Std. Error z value Pr(>|z|)    
+(Intercept)         -2.239589   0.072169 -31.033   <2e-16 ***
+as.factor(Year)2007 -0.034922   0.101081  -0.345    0.730    
+as.factor(Year)2008  0.070722   0.102985   0.687    0.492    
+as.factor(Year)2009 -0.003376   0.099680  -0.034    0.973    
+as.factor(Year)2010  0.066817   0.105680   0.632    0.527    
+as.factor(Year)2012  0.009891   0.099504   0.099    0.921    
+as.factor(Year)2013  0.008905   0.099016   0.090    0.928    
+as.factor(Year)2014  0.041625   0.098372   0.423    0.672    
+as.factor(Year)2015 -0.051218   0.126023  -0.406    0.684    
+as.factor(Year)2016 -0.017600   0.098976  -0.178    0.859    
+as.factor(Year)2017 -0.010677   0.097246  -0.110    0.913    
+as.factor(Year)2019  0.009155   0.100966   0.091    0.928    
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 2: Weedy
+                     Estimate Std. Error z value Pr(>|z|)    
+(Intercept)         -2.168254   0.072463 -29.922   <2e-16 ***
+as.factor(Year)2007 -0.012411   0.101604  -0.122    0.903    
+as.factor(Year)2008 -0.005244   0.103178  -0.051    0.959    
+as.factor(Year)2009  0.030415   0.100218   0.303    0.762    
+as.factor(Year)2010  0.048595   0.106043   0.458    0.647    
+as.factor(Year)2012  0.014776   0.099950   0.148    0.882    
+as.factor(Year)2013  0.038159   0.099523   0.383    0.701    
+as.factor(Year)2014  0.072755   0.098869   0.736    0.462    
+as.factor(Year)2015  0.012360   0.127115   0.097    0.923    
+as.factor(Year)2016  0.066026   0.099719   0.662    0.508    
+as.factor(Year)2017  0.096919   0.098032   0.989    0.323    
+as.factor(Year)2019  0.046798   0.101518   0.461    0.645    
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 3: StrTol
+                    Estimate Std. Error z value Pr(>|z|)    
+(Intercept)         -0.56996    0.10110  -5.638 1.72e-08 ***
+as.factor(Year)2007 -0.36381    0.13626  -2.670 0.007589 ** 
+as.factor(Year)2008  0.20720    0.14718   1.408 0.159203    
+as.factor(Year)2009 -0.24803    0.13560  -1.829 0.067375 .  
+as.factor(Year)2010  0.24668    0.15142   1.629 0.103283    
+as.factor(Year)2012 -0.23903    0.13548  -1.764 0.077672 .  
+as.factor(Year)2013 -0.16302    0.13580  -1.200 0.229971    
+as.factor(Year)2014 -0.03187    0.13629  -0.234 0.815130    
+as.factor(Year)2015 -0.66757    0.16030  -4.165 3.12e-05 ***
+as.factor(Year)2016 -0.45185    0.13192  -3.425 0.000614 ***
+as.factor(Year)2017 -0.40289    0.13025  -3.093 0.001980 ** 
+as.factor(Year)2019 -0.18211    0.13799  -1.320 0.186907    
+------------------------------------------------------------------
+Significance codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Log-likelihood: 25485 on 36 df (212 BFGS + 2 NR Iterations)
+AIC: -50898, BIC: -50689
+Number of Observations: 2507
+Link: Log
+Parametrization: common
+

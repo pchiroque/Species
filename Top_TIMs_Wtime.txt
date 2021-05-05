@@ -1,0 +1,43 @@
+
+Call:
+DirichReg(formula = AL ~ K490_anual + Ipar_anual + SST_anual + UV_anual, data = p, model = "common")
+
+Standardized Residuals:
+            Min       1Q   Median       3Q     Max
+Comp    -0.6093  -0.5697  -0.5605  -0.5284  3.4152
+Weedy   -0.6232  -0.5960  -0.5725  -0.5609  3.3428
+StrTol  -2.1921   0.8233   0.8913   0.9251  0.9732
+
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 1: Comp
+              Estimate Std. Error z value Pr(>|z|)
+(Intercept) -1.728e+00  1.864e+00  -0.927    0.354
+K490_anual  -6.771e-01  3.474e+00  -0.195    0.845
+Ipar_anual  -4.566e-03  3.003e-02  -0.152    0.879
+SST_anual   -6.052e-03  1.262e-01  -0.048    0.962
+UV_anual    -2.348e-05  1.844e-04  -0.127    0.899
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 2: Weedy
+              Estimate Std. Error z value Pr(>|z|)   
+(Intercept) -5.8622125  1.8827289  -3.114  0.00185 **
+K490_anual  -0.8477435  3.5169506  -0.241  0.80952   
+Ipar_anual  -0.0107916  0.0303616  -0.355  0.72226   
+SST_anual    0.2184158  0.1272228   1.717  0.08602 . 
+UV_anual    -0.0004120  0.0001826  -2.256  0.02404 * 
+------------------------------------------------------------------
+Beta-Coefficients for variable no. 3: StrTol
+              Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -1.822e+00  2.522e+00  -0.722  0.47010    
+K490_anual  -1.334e+01  4.755e+00  -2.806  0.00501 ** 
+Ipar_anual   2.756e-02  4.045e-02   0.681  0.49560    
+SST_anual    1.831e-01  1.714e-01   1.068  0.28531    
+UV_anual    -1.126e-03  2.445e-04  -4.605 4.13e-06 ***
+------------------------------------------------------------------
+Significance codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Log-likelihood: 34872 on 15 df (120 BFGS + 2 NR Iterations)
+AIC: -69714, BIC: -69622
+Number of Observations: 3360
+Link: Log
+Parametrization: common
+
