@@ -1,6 +1,6 @@
 
 Call:
-DirichReg(formula = AL ~ K490_anual + Ipar_anual + SST_anual + UV_anual, data = p, model = "common")
+DirichReg(formula = AL ~ K490_anual + Ipar_anual + SST_anual + UV_anual, data = Predictors.S, model = "common")
 
 Standardized Residuals:
             Min       1Q   Median       3Q     Max
@@ -10,32 +10,32 @@ StrTol  -1.1417  -1.0351   1.3060   1.3757  1.5868
 
 ------------------------------------------------------------------
 Beta-Coefficients for variable no. 1: Comp
-              Estimate Std. Error z value Pr(>|z|)
-(Intercept) -2.518e+00  2.482e+00  -1.015    0.310
-K490_anual   1.647e-01  4.000e+00   0.041    0.967
-Ipar_anual  -6.007e-03  4.025e-02  -0.149    0.881
-SST_anual    1.501e-02  1.210e-01   0.124    0.901
-UV_anual     1.769e-05  2.408e-04   0.073    0.941
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -2.338005   0.025582 -91.393   <2e-16 ***
+K490_anual   0.001312   0.031869   0.041    0.967    
+Ipar_anual  -0.004953   0.033185  -0.149    0.881    
+SST_anual    0.004415   0.035613   0.124    0.901    
+UV_anual     0.002143   0.029169   0.073    0.941    
 ------------------------------------------------------------------
 Beta-Coefficients for variable no. 2: Weedy
-              Estimate Std. Error z value Pr(>|z|)    
-(Intercept) -8.986e+00  2.597e+00  -3.460  0.00054 ***
-K490_anual  -1.082e+00  4.327e+00  -0.250  0.80250    
-Ipar_anual   1.034e-02  4.187e-02   0.247  0.80496    
-SST_anual    2.624e-01  1.265e-01   2.075  0.03801 *  
-UV_anual    -2.006e-05  2.539e-04  -0.079  0.93702    
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -1.857707   0.027037 -68.711   <2e-16 ***
+K490_anual  -0.008622   0.034470  -0.250    0.802    
+Ipar_anual   0.008524   0.034521   0.247    0.805    
+SST_anual    0.077188   0.037204   2.075    0.038 *  
+UV_anual    -0.002430   0.030750  -0.079    0.937    
 ------------------------------------------------------------------
 Beta-Coefficients for variable no. 3: StrTol
-              Estimate Std. Error z value Pr(>|z|)
-(Intercept)  2.884e+00  2.721e+00   1.060    0.289
-K490_anual   2.487e+00  4.230e+00   0.588    0.557
-Ipar_anual  -6.758e-02  4.494e-02  -1.504    0.133
-SST_anual   -7.235e-02  1.334e-01  -0.543    0.587
-UV_anual     8.159e-05  2.678e-04   0.305    0.761
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -1.674267   0.027977 -59.845   <2e-16 ***
+K490_anual   0.019816   0.033700   0.588    0.557    
+Ipar_anual  -0.055721   0.037054  -1.504    0.133    
+SST_anual   -0.021285   0.039235  -0.543    0.587    
+UV_anual     0.009883   0.032443   0.305    0.761    
 ------------------------------------------------------------------
 Significance codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Log-likelihood: 15247 on 15 df (124 BFGS + 2 NR Iterations)
+Log-likelihood: 15247 on 15 df (96 BFGS + 1 NR Iterations)
 AIC: -30465, BIC: -30384
 Number of Observations: 1652
 Link: Log
